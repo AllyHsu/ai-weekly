@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>壽險業 AI 應用情報週報｜2026-07-07</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#14213d; --navy:#0f1c33; --gold:#b08d3e; --gold-lt:#d4bc7d; --ivory:#faf7f0; --paper:#fffdf8; --gray:#5b6472; --line:#e4dcc9; }
+  body { margin:0; padding:0; background:#eceae4; font-family:"Noto Sans TC","Source Han Sans TC","Microsoft JhengHei","PingFang TC",sans-serif; color:var(--ink); }
+  .sans { font-family:"Noto Sans TC","Source Han Sans TC","Microsoft JhengHei","PingFang TC",sans-serif; }
+  h1,h2,h3 { font-weight:700; }
+  .masthead h1 { font-weight:900; }
+  .wrap { max-width:680px; margin:0 auto; background:var(--paper); }
+
+  .topbar { background:var(--navy); color:#cdd6e4; padding:7px 26px; font-size:11.5px; display:flex; justify-content:space-between; letter-spacing:1px; }
+  .topbar .gold { color:var(--gold-lt); }
+
+  .masthead { background:var(--ivory); padding:30px 26px 18px; text-align:center; border-bottom:3px double var(--gold); }
+  .masthead .kicker { font-size:11px; letter-spacing:6px; color:var(--gold); margin-bottom:10px; }
+  .masthead h1 { margin:0; font-size:30px; font-weight:700; letter-spacing:6px; color:var(--navy); }
+  .masthead .sub { margin-top:10px; font-size:12.5px; color:var(--gray); letter-spacing:2px; }
+  .dateline { background:var(--ivory); padding:9px 26px; font-size:12px; color:var(--gray); display:flex; justify-content:space-between; border-bottom:1px solid var(--line); letter-spacing:1px; }
+  .dateline b { color:var(--navy); }
+
+  .section { padding:26px 26px 8px; }
+  .sec-head { text-align:center; margin-bottom:16px; }
+  .sec-head .en { font-size:10.5px; letter-spacing:5px; color:var(--gold); text-transform:uppercase; }
+  .sec-head h2 { margin:4px 0 0; font-size:19px; letter-spacing:8px; color:var(--navy); font-weight:700; }
+  .sec-head .rule { width:56px; height:2px; background:var(--gold); margin:12px auto 0; }
+
+  .banner-img { width:100%; height:170px; overflow:hidden; margin-bottom:18px; border:1px solid var(--line); }
+  .banner-img img { width:100%; height:170px; object-fit:cover; display:block; filter:saturate(.9); }
+  .banner-cap { font-size:11px; color:var(--gray); margin:-12px 0 18px; text-align:right; letter-spacing:1px; }
+
+  .banner { width:100%; box-sizing:border-box; padding:20px 24px; margin-bottom:18px; background:var(--navy); color:#e9e2cf; border-top:2px solid var(--gold); border-bottom:2px solid var(--gold); display:flex; justify-content:space-between; align-items:center; }
+  .banner .zh { font-size:17px; letter-spacing:5px; font-weight:700; }
+  .banner .en { font-size:10px; letter-spacing:3px; color:var(--gold-lt); text-align:right; }
+
+  .item { margin-bottom:20px; padding-bottom:16px; border-bottom:1px solid var(--line); }
+  .item:last-child { border-bottom:none; }
+  .item h3 { margin:0 0 7px; font-size:16px; color:var(--navy); line-height:1.55; font-weight:700; }
+  .item h3 .co { color:var(--gold); }
+  .item p { margin:0 0 7px; font-size:13.5px; line-height:1.9; color:#333c4d; }
+  .num { color:var(--gold); font-size:17px; margin-right:6px; }
+  .hl { border-bottom:2px solid var(--gold-lt); font-weight:700; }
+  .src { font-size:11.5px; color:var(--gray); letter-spacing:.5px; }
+  .src a { color:#8a6d2f; text-decoration:none; border-bottom:1px dotted #c9b06a; }
+  .src a:hover { color:var(--gold); }
+
+  .badge { display:inline-block; border:1px solid var(--gold); color:var(--gold); font-size:10.5px; padding:1px 9px; margin-right:8px; vertical-align:2px; letter-spacing:2px; border-radius:1px; }
+  .badge.tw { border-color:#2f6b4f; color:#2f6b4f; }
+
+  table.rank { width:100%; border-collapse:collapse; font-size:13px; margin-bottom:10px; }
+  table.rank th { background:var(--navy); color:#e9e2cf; padding:8px 10px; text-align:left; font-weight:400; letter-spacing:2px; }
+  table.rank td { padding:8px 10px; border-bottom:1px solid var(--line); }
+  table.rank tr:nth-child(even) td { background:var(--ivory); }
+  table.rank td b { color:var(--navy); }
+
+  .download { background:var(--navy); margin:26px; padding:24px 26px; display:flex; gap:22px; align-items:center; border-top:3px double var(--gold); border-bottom:3px double var(--gold); }
+  .download img { width:116px; height:116px; border:4px solid #fff; }
+  .download .txt h3 { margin:0 0 7px; font-size:16px; color:#f3ecd9; letter-spacing:2px; }
+  .download .txt p { margin:0 0 12px; font-size:12px; color:#aeb8c8; line-height:1.8; }
+  .btn { display:inline-block; background:var(--gold); color:var(--navy) !important; font-size:13px; padding:9px 24px; text-decoration:none; letter-spacing:3px; font-weight:700; }
+
+  .footer { background:#0b1526; color:#7c8797; font-size:11px; padding:20px 26px; line-height:2; letter-spacing:.5px; }
+  .footer .brand { color:var(--gold-lt); letter-spacing:2px; }
+  @media (max-width:520px){ .download{flex-direction:column; text-align:center;} .masthead h1{font-size:24px; letter-spacing:3px;} .banner{flex-direction:column; gap:6px; text-align:center;} .banner .en{text-align:center;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="topbar sans"><span>數據暨AI發展部</span><span class="gold">STRATEGIC INTELLIGENCE WEEKLY</span></div>
+
+  <div class="masthead">
+    <div class="kicker">LIFE INSURANCE · AI · DATA</div>
+    <h1>壽險業 AI 應用情報週報</h1>
+    <div class="sub">全球保險業 AI 與 Data 發展動態｜高階主管策略情報</div>
+  </div>
+
+  <div class="dateline sans"><span>中華民國 115 年 7 月 7 日（週二）｜<b>第 2026-07-07 期</b></span><span>13 家全球壽險＋台灣市場監理</span></div>
+
+  <!-- 本週重點觀察 -->
+  <div class="section">
+    <div class="sec-head"><div class="en">This Week's Briefing</div><h2>本週重點觀察</h2><div class="rule"></div></div>
+    <div class="banner" style="padding:26px 24px;"><span class="zh" style="font-size:20px;">Evident AI Index 2026｜Allianz 首度登頂</span><span class="en sans">30 GLOBAL INSURERS<br>AI MATURITY BENCHMARK</span></div>
+
+    <div class="item">
+      <h3><span class="num">壹</span>Evident AI Index 2026 揭曉：<span class="co">Allianz 首度登頂</span>，AI 競爭進入「規模化落地」階段</h3>
+      <p>6/16 發布的保險業 AI 成熟度評比（30 家全球保險公司、四大構面）中，Allianz 超越 AXA 奪下第 1。Allianz 以多出同業 <span class="hl">28% 的 AI 人才庫</span>與 <span class="hl">900+ 個註冊應用案例</span>登頂；領先群與追趕者差距正在縮小——「導入深度與速度」成為新戰場。</p>
+      <div class="src sans">來源：<a href="https://www.allianz.com/en/mediacenter/news/articles/260616-allianz-ranked-first-in-2026-evident-ai-Index-for-insurance.html">Allianz 官方</a>｜<a href="https://www.theinsurer.com/ti/news/allianz-overtakes-axa-zurich-rises-in-evidents-ai-adoption-ranking-2026-06-16/">The Insurer</a>｜<a href="https://evidentinsights.com/insurance-ai-index/">Evident Insights</a></div>
+    </div>
+
+    <div class="item">
+      <h3><span class="num">貳</span>前沿模型商成為保險巨頭的戰略夥伴</h3>
+      <p>Allianz 於 1 月與 Anthropic 締結全球合作：Claude 納入內部平台供全員使用、共同開發理賠與營運的 Agentic 工作流，並建置記錄每次互動與決策的「AI 稽核層」以符合監理要求。從 AXA×Microsoft 到 Allianz×Anthropic，與前沿模型商深度綁定正成為領先者的共同路徑。</p>
+      <div class="src sans">來源：<a href="https://www.allianz.com/en/mediacenter/news/media-releases/260109-allianz-and-anthropic-forge-global-partnership.html">Allianz 新聞稿</a>｜<a href="https://www.ciodive.com/news/allianz-anthropic-global-partnership-insurance/809250/">CIO Dive</a></div>
+    </div>
+
+    <div class="item">
+      <h3><span class="num">參</span>Agentic AI 規模化出現具體數字</h3>
+      <p>Prudential Financial 揭露 <span class="hl">260+ 個 AI 應用案例、2,300+ 名員工使用 Agentic AI</span>，核保理賠時程從數週縮至數天，並設立 Chief Data and AI Officer；平安集團 CTO 宣示服務模式從 App 中心轉向「AI Agent 中心」。Agentic AI 已從試點敘事進入可稽核的營運數字。</p>
+      <div class="src sans">來源：<a href="https://news.prudential.com/us-en/latest-news/prudential-news/2026/q2/AI-at-Prudential-Amplifying-human-potential-to-better-serve-our-customers">Prudential 官方</a>｜<a href="https://www.yicaiglobal.com/news/chinas-ping-an-insurance-shifts-to-ai-agent-centric-services-cto-says">Yicai Global</a></div>
+    </div>
+
+    <div class="item">
+      <h3><span class="num">肆</span>台灣監理與基礎建設雙線推進，全球罕見的先行市場</h3>
+      <p>金管會將「AI Agent」與「AI 風險分類」納入金融業 AI 監理指引並建立「AI 管 AI」稽核架構，高風險決策恐須保留人工介入；同步研議讓保險資金投資 AI 算力中心。7/1 起 11 家保險業者「保全／理賠聯盟鏈」上線試辦，為跨公司 AI 理賠自動化鋪路。</p>
+      <div class="src sans">來源：<a href="https://www.epochtimes.com/b5/26/5/7/n14758846.htm">大紀元</a>｜<a href="https://money.udn.com/money/story/5613/9486677">經濟日報</a>｜<a href="https://www.blocktempo.com/taiwan-insurance-blockchain/">BlockTempo</a></div>
+    </div>
+
+    <div class="item">
+      <h3><span class="num">伍</span>台灣同業 AI 落地成效開始量化，競爭格局同步重整</h3>
+      <p>富邦人壽核保時間 <span class="hl">50 分鐘 → 25 分鐘（-50%）</span>；國泰人壽理賠流程已有 <span class="hl">30+ 個 AI Agents</span>；南山揭示 AI First（2026–2028）藍圖。另外，玉山金 7/7 獲准併購三商美邦人壽（9/1 更名玉山人壽），數位強權金控加入壽險戰局。</p>
+      <div class="src sans">來源：<a href="https://www.bnext.com.tw/article/91297/fubonlife">數位時代</a>｜<a href="https://www.cw.com.tw/article/5132643">天下雜誌</a>｜<a href="https://newtalk.tw/news/view/2026-07-07/1045829">Newtalk</a></div>
+    </div>
+  </div>
+
+  <!-- 產業指標 -->
+  <div class="section">
+    <div class="sec-head"><div class="en">Industry Benchmark</div><h2>產業指標</h2><div class="rule"></div></div>
+    <div class="banner"><span class="zh">Evident AI Index 2026</span><span class="en sans">30 GLOBAL INSURERS<br>TALENT · INNOVATION · LEADERSHIP · TRANSPARENCY</span></div>
+
+    <div class="item">
+      <h3>年度排名（6/16 發布）</h3>
+      <table class="rank sans">
+        <tr><th style="width:52px">排名</th><th style="width:140px">公司</th><th>重點</th></tr>
+        <tr><td>1</td><td><b>Allianz</b> 🏆</td><td>首度登頂；AI 人才庫多同業 28%，900+ 註冊應用案例</td></tr>
+        <tr><td>2</td><td><b>AXA</b></td><td>由首位退居第二，仍屬明顯領先群</td></tr>
+        <tr><td>3</td><td><b>Manulife</b></td><td>亞太業務比重高的集團中排名最前</td></tr>
+        <tr><td>4</td><td><b>Zurich</b></td><td>排名上升</td></tr>
+        <tr><td>5</td><td><b>Liberty Mutual</b></td><td>—</td></tr>
+        <tr><td>6–10</td><td colspan="2">Intact、Travelers、USAA、Allstate、MassMutual（30 家受評者幾乎全數提升分數）</td></tr>
+      </table>
+      <div class="src sans">來源：<a href="https://www.theinsurer.com/ti/news/allianz-overtakes-axa-zurich-rises-in-evidents-ai-adoption-ranking-2026-06-16/">The Insurer</a>｜<a href="https://riskandinsurance.com/axa-allianz-dominate-ai-maturity-rankings-as-industry-transformation-accelerates/">Risk &amp; Insurance</a>｜<a href="https://evidentinsights.com/insurance-ai-index/">Evident Insights</a></div>
+    </div>
+  </div>
+
+  <!-- 全球動態 -->
+  <div class="section">
+    <div class="sec-head"><div class="en">Global Radar</div><h2>全球動態</h2><div class="rule"></div></div>
+    <div class="banner"><span class="zh">全球保險巨頭 AI 動態</span><span class="en sans">GLOBAL INSURANCE<br>AI RADAR</span></div>
+
+    <div class="item">
+      <h3><span class="badge sans">全球</span><span class="co">Prudential Financial（保德信）</span>｜260+ AI 案例、2,300 人使用 Agentic AI</h3>
+      <p>核保與理賠處理時程從數週縮短至數天；年金定價模型建構時間縮至 1/5；2026 年 4 月由 Bob Bastian 出任 Chief Data and AI Officer。（註：與英國保誠 Prudential plc 為不同公司）</p>
+      <div class="src sans">來源：<a href="https://news.prudential.com/us-en/latest-news/prudential-news/2026/q2/AI-at-Prudential-Amplifying-human-potential-to-better-serve-our-customers">Prudential Newsroom</a></div>
+    </div>
+
+    <div class="item">
+      <h3><span class="badge sans">全球</span><span class="co">Allianz（安聯）</span>｜Evident 第 1＋Anthropic 全球合作</h3>
+      <p>Claude 成為內部 AI 平台核心元件（全員可用、數千名開發者使用 Claude Code）；共同開發車險與健康險 Agentic 理賠工作流；建置「AI 稽核層」記錄每次互動與決策以符合監理要求。</p>
+      <div class="src sans">來源：<a href="https://www.allianz.com/en/mediacenter/news/media-releases/260109-allianz-and-anthropic-forge-global-partnership.html">Allianz 新聞稿</a>｜<a href="https://www.allianz.com/en/mediacenter/news/articles/260616-allianz-ranked-first-in-2026-evident-ai-Index-for-insurance.html">Allianz（Evident #1）</a></div>
+    </div>
+
+    <div class="item">
+      <h3><span class="badge sans">亞洲</span><span class="co">Ping An（平安保險）</span>｜服務模式轉向「AI Agent 中心」</h3>
+      <p>集團 CTO 宣示由 App 中心轉為以 AI 智能體為客戶服務主介面；不做通用型 AI 工具，改為智能體配備金融／醫療領域高門檻專業能力，目標達到甚至超越產業專業人員。</p>
+      <div class="src sans">來源：<a href="https://www.yicaiglobal.com/news/chinas-ping-an-insurance-shifts-to-ai-agent-centric-services-cto-says">Yicai Global</a></div>
+    </div>
+
+    <div class="item">
+      <h3><span class="badge sans">產業</span>Travelers｜自建保險專屬 LLM「TravelersLLM」</h3>
+      <p>以數百萬份內部文件訓練領域模型，測試中以更低成本、更快速度勝過通用模型——保險業 AI 競爭正分層：通用模型人人可得，「領域知識模型／資料資產」決勝負。</p>
+      <div class="src sans">來源：<a href="https://www.insurancejournal.com/news/national/2026/07/02/876053.htm">Insurance Journal</a></div>
+    </div>
+
+    <div class="item">
+      <h3><span class="badge sans">觀察</span>MetLife、AIA、FWD、China Life｜本期無重大 AI 公告</h3>
+      <p>MetLife 為 Evident Index 30 家受評者之一（未入前十）；AIA、FWD、中國人壽本期（7/1–7/7）無新公告，既有動態見前期報告。</p>
+      <div class="src sans">來源：<a href="https://www.theinsurer.com/ti/news/allianz-overtakes-axa-zurich-rises-in-evidents-ai-adoption-ranking-2026-06-16/">The Insurer</a></div>
+    </div>
+  </div>
+
+  <!-- 台灣同業動態 -->
+  <div class="section">
+    <div class="sec-head"><div class="en">Taiwan Watch</div><h2>台灣同業動態</h2><div class="rule"></div></div>
+    <div class="banner"><span class="zh">台灣同業動態</span><span class="en sans">TAIWAN LIFE INSURANCE<br>AI WATCH</span></div>
+
+    <div class="item">
+      <h3><span class="badge tw sans">台灣</span><span class="co">富邦人壽</span>｜量化成效領先，AI 進入生產部署</h3>
+      <p>核保智能助理（GenAI 病歷／財務文件摘要）將核保時間從 50 分鐘縮至 25 分鐘（-50%）；理賠智能助理 1 月上線理賠第一線（Microsoft Copilot Studio）；FacePass 刷臉投保 3 分鐘完成；富邦金控近 20 項 GenAI 專案同步推進。</p>
+      <div class="src sans">來源：<a href="https://www.moneydj.com/KMDJ/News/NewsViewer.aspx?a=41c08c4b-8928-4eb3-a4fb-097f51cbc6da">MoneyDJ</a>｜<a href="https://www.bnext.com.tw/article/91297/fubonlife">數位時代</a>｜<a href="https://finance.technews.tw/2026/05/25/facepass/">TechNews</a></div>
+    </div>
+
+    <div class="item">
+      <h3><span class="badge tw sans">台灣</span><span class="co">國泰人壽</span>｜理賠 Agent 軍團＋全員 AI 素養</h3>
+      <p>理賠流程已打造 30+ 個 AI Agents（GenAI＋Agentic AI 全面升級理賠與繳費效率）；董總領頭啟動「AI 公民計畫」推動全員學 AI；金控級資料暨 AI 治理委員會＋GAIA 2.0 為治理與技術底座。</p>
+      <div class="src sans">來源：<a href="https://www.cw.com.tw/article/5132643">天下雜誌</a>｜<a href="https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000699871_X8Z98QGU6HSYFM2QCZWE8">DIGITIMES</a></div>
+    </div>
+
+    <div class="item">
+      <h3><span class="badge tw sans">台灣</span><span class="co">南山人壽</span>｜AI First 藍圖與創新機制成形</h3>
+      <p>數位長呂新科揭示第二階段「AI First」（2026–2028）：AI 深度嵌入核保、理賠、業務、客服，聚焦降本增效；首屆 TRY-IF 創新計畫 56 件徵案 → 14 案發表 → 3 案 POC；數轉聯隊約 500 人、AI 核心人才 20 餘名。</p>
+      <div class="src sans">來源：<a href="https://www.ithome.com.tw/news/176177">iThome（轉型藍圖）</a>｜<a href="https://www.ithome.com.tw/news/176181">iThome（人才策略）</a></div>
+    </div>
+
+    <div class="item">
+      <h3><span class="badge tw sans">台灣</span><span class="co">凱基人壽</span>｜本期無具體動態</h3>
+      <p>延續 FinLLM 產業專案參與（金管會指導、16 家金融機構共同投入）；本期無新揭露。</p>
+      <div class="src sans">來源：<a href="https://www.cna.com.tw/postwrite/chi/431522">中央社（FinLLM 背景）</a></div>
+    </div>
+  </div>
+
+  <!-- 台灣市場與監理 -->
+  <div class="section">
+    <div class="sec-head"><div class="en">Market &amp; Regulation</div><h2>市場與監理</h2><div class="rule"></div></div>
+    <div class="banner"><span class="zh">市場與監理</span><span class="en sans">MARKET &amp;<br>REGULATION</span></div>
+
+    <div class="item">
+      <h3>金管會 AI 監理升級：「AI Agent」納入指引、建立「AI 管 AI」</h3>
+      <p>「可程式化 AI」「代理 AI」「AI 風險分類」納入金融業 AI 指引；高風險 AI 決策（核保拒保、理賠拒付）恐禁止全自動、須保留人工介入。</p>
+      <div class="src sans">來源：<a href="https://www.epochtimes.com/b5/26/5/7/n14758846.htm">大紀元</a>｜<a href="https://money.udn.com/money/story/5613/9486677">經濟日報</a></div>
+    </div>
+
+    <div class="item">
+      <h3>保險資金 × AI 基建；壽險 GenAI 導入率約 67%</h3>
+      <p>AI 算力中心研議列入策略性產業開放保險資金投資；金融業 61 家已導入生成式 AI（保險業 18 家）——差異化重心轉向導入深度。</p>
+      <div class="src sans">來源：<a href="https://money.udn.com/money/story/5613/9570625">經濟日報</a></div>
+    </div>
+
+    <div class="item">
+      <h3>保全／理賠聯盟鏈 7/1 試辦；玉山金併三商美邦人壽</h3>
+      <p>11 家業者（含國泰、富邦、新光、南山等）試辦 6 個月，「一次申請、全業界受理」；金管會 7/7 核准玉山金以約 467 億元併購三商美邦人壽，9/1 更名「玉山人壽」。</p>
+      <div class="src sans">來源：<a href="https://www.blocktempo.com/taiwan-insurance-blockchain/">BlockTempo</a>｜<a href="https://newtalk.tw/news/view/2026-07-07/1045829">Newtalk</a></div>
+    </div>
+  </div>
+
+  <!-- 下載區 -->
+  <div class="download">
+    <img alt="QR Code 下載本期週報" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAAEICAIAAAAslP2oAAAFHElEQVR4nO3dwa3cNhRA0fwgfaSQ1OUqUlcKSSXjRVYGrhYEHkPKPmdpfGtmpLkgIA7Fr8/n8xvwo99PvwG4kTAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAPCH6v/4c+//t7xPsb9+8+3/Pen93/q75+snufbPu9tVs+/EQOCMCAIA4IwIAgDgjAgCAPC8jzGk9X7xFNO3Uefet3d8xWrpq7j278PRgwIwoAgDAjCgCAMCMKAIAwIY/MYT95yf333fMju469+rql1I6tu+z48MWJAEAYEYUAQBgRhQBAGBGFA2D6PcZvd99F3zw+cmm85tb7iFCMGBGFAEAYEYUAQBgRhQBAGhF9uHmNqn4rV+YSp+YHd+2zwHyMGBGFAEAYEYUAQBgRhQBAGhO3zGG/5Hf/UPhVTr7v7vJ26Lm/5PhgxIAgDgjAgCAOCMCAIA4IwIIzNY7zld/+r8wan1l28/fhv+T48MWJAEAYEYUAQBgRhQBAGBGFA+Pp8Pqffw//qLffXT80bvGW9xG5GDAjCgCAMCMKAIAwIwoAgDAjL6zF2r2eYOs7u45+aZ9h9Pqeu79T5OXW9jBgQhAFBGBCEAUEYEIQBQRgQlucxpn6vf+q++FueK3XbupGp8/Bkar/zqfNmxIAgDAjCgCAMCMKAIAwIwoCwfT3G7vvNp/bnnjr+qXUgu6/LlFPX14gBQRgQhAFBGBCEAUEYEIQBYWx/jFPPI9rt7c/F2n0+b7uOU+/HiAFBGBCEAUEYEIQBQRgQhAFheT3GbU49x2nqOUhTTu1Psvvvn6yu/1llxIAgDAjCgCAMCMKAIAwIwoAwth5jylvmJXavr5hy23OrVp06z0YMCMKAIAwIwoAgDAjCgCAMCNv3x7jtPvep/SVO/f2qU+s3bmPEgCAMCMKAIAwIwoAgDAjCgLB9f4xVt92Pnzr+6uvu3m/71Od9cts6ECMGBGFAEAYEYUAQBgRhQBAGBPtjDB/nyan9NJ4+19TnnTrPt63fMGJAEAYEYUAQBgRhQBAGBGFAODaPMfU8olP7S9w2T3JqX+3d72f3OpAnRgwIwoAgDAjCgCAMCMKAIAwI2/fH2G33/ftVb5n3WH3dJ7ftNzLFiAFBGBCEAUEYEIQBQRgQhAFheR5j933rU/ezp9YJnJrPcR5mGTEgCAOCMCAIA4IwIAgDgjAgbN/n++3rB6Ze98nu5z6dei7TbtZjwAHCgCAMCMKAIAwIwoAgDAhj8xhv8bPOD0ytk5k6/tTrTll9/0YMCMKAIAwIwoAgDAjCgCAMCGP7Y9xm9b71qecyTc2T3LYe5rbzucqIAUEYEIQBQRgQhAFBGBCEAWF5HuPJbft8Tx3nLft4PNk973TbfiBT59+IAUEYEIQBQRgQhAFBGBCEAWFsHuPJ7n0kpo4ztf5h1e51F7d93ie79wlZZcSAIAwIwoAgDAjCgCAMCMKAsH0e4za7n+90yql9P049F2v3dTFiQBAGBGFAEAYEYUAQBgRhQPjl5jGeTD2P6Ok4u9cVTM0D7H5O1Fs+lxEDgjAgCAOCMCAIA4IwIAgDwvZ5jFP7Jzw59fv+1dfdPe+xez3GW+YrnhgxIAgDgjAgCAOCMCAIA4IwIIzNY7z9+UtT98tP7eNxan3Fqf0rdjNiQBAGBGFAEAYEYUAQBgRhQPj6fD6n3wNcx4gBQRgQhAFBGBCEAUEYEIQBQRgQhAFBGBCEAUEYEIQBQRgQhAHhO0LiO1iHti21AAAAAElFTkSuQmCC">
+    <div class="txt sans">
+      <h3>掃描 QR Code，下載本期週報</h3>
+      <p>手機掃描左側 QR Code 或點擊下方按鈕，即可下載完整版（含 PDF）。<br>※ QR Code 目前為占位短網址，提供正式短網址後即可重新產生。</p>
+      <a class="btn" href="https://reurl.cc/AI-WEEKLY-PLACEHOLDER?utm_source=newsletter&utm_medium=qrcode&utm_campaign=ai_weekly_20260707">下載本期週報</a>
+    </div>
+  </div>
+
+  <!-- 頁尾 -->
+  <div class="footer sans">
+    <span class="brand">壽險業 AI 應用情報週報｜數據暨AI發展部 製作</span><br>
+    資料來源：各公司官方新聞稿、Evident Insights、國內外媒體公開報導（各條目均附來源連結）；台灣市場動態部分整合自 Polaris Insurance Brief 每日情報（2026-06-30～07-07）。<br>
+    本報告由 AI 情報系統輔助產生，重要決策前請以原始來源查證。<br>
+    All Rights Reserved © 2026 數據暨AI發展部
+  </div>
+
+</div>
+</body>
+</html>
