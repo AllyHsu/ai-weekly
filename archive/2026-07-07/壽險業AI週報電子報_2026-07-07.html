@@ -67,6 +67,9 @@
   .footer { background:#0b1526; color:#7c8797; font-size:11px; padding:20px 26px; line-height:2; letter-spacing:.5px; }
   .footer .brand { color:var(--gold-lt); letter-spacing:2px; }
   @media (max-width:520px){ .download{flex-direction:column; text-align:center;} .masthead h1{font-size:24px; letter-spacing:3px;} .banner{flex-direction:column; gap:6px; text-align:center;} .banner .en{text-align:center;} }
+  .item, .banner, .sec-head, .download, table.rank tr { break-inside: avoid; page-break-inside: avoid; }
+  .sec-head { break-after: avoid; }
+  .item h3 { break-after: avoid; }
 </style>
 </head>
 <body>
