@@ -1,46 +1,39 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="zh-Hant">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>壽險業 AI 應用情報週報｜下載</title>
-<!-- Google Analytics 4（已啟用） -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X1NF5GV63S"></script>
+<title>已搬家｜保險業 AI・Agent・數位轉型 週報</title>
+<meta http-equiv="refresh" content="3;url=https://allyhsu.github.io/polaris-insurance-ai-weekly/">
+<link rel="canonical" href="https://allyhsu.github.io/polaris-insurance-ai-weekly/">
+<!-- GA4（新鏈路 G-4B3HVV9T2R）：記錄舊 QR／舊連結還有多少人使用 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4B3HVV9T2R"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-X1NF5GV63S');
-  document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('a.btn').forEach(function (a) {
-      a.addEventListener('click', function () {
-        gtag('event', a.classList.contains('primary') ? 'download_pdf' : 'read_online',
-             { event_category: 'newsletter', event_label: document.title });
-      });
-    });
+  gtag('config', 'G-4B3HVV9T2R');
+  gtag('event', 'legacy_redirect', {
+    event_category: 'newsletter',
+    legacy_source: 'ai-weekly'
   });
+  // 送出事件後跳轉（1.2 秒緩衝；meta refresh 3 秒為無 JS 備援）
+  setTimeout(function(){ location.replace('https://allyhsu.github.io/polaris-insurance-ai-weekly/'); }, 1200);
 </script>
 <style>
   body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
-         background:linear-gradient(135deg,#0f1c33,#14355c); font-family:"Noto Sans TC","Microsoft JhengHei","PingFang TC",sans-serif; }
-  .card { background:#fffdf8; border-radius:14px; padding:36px 32px; max-width:360px; width:88%; text-align:center; box-shadow:0 10px 40px rgba(0,0,0,.35); border-top:4px solid #b08d3e; }
-  h1 { font-size:20px; color:#0f1c33; margin:0 0 6px; }
-  .sub { font-size:12.5px; color:#5b6472; margin-bottom:24px; }
-  .btn { display:block; padding:13px 0; border-radius:8px; text-decoration:none; font-size:15px; margin-bottom:12px; }
-  .primary { background:#0f1c33; color:#fff; }
-  .secondary { background:#faf7f0; color:#0f1c33; border:1px solid #d4bc7d; }
-  .foot { font-size:11px; color:#94a3b8; margin-top:18px; }
-  .foot a { color:#8a6d2f; }
+         background:linear-gradient(135deg,#0d2440,#14355c); font-family:"Noto Sans TC","Microsoft JhengHei","PingFang TC",sans-serif; }
+  .card { background:#fffdf8; border-radius:14px; padding:36px 32px; max-width:380px; width:88%; text-align:center; box-shadow:0 10px 40px rgba(0,0,0,.35); border-top:4px solid #c8a24b; }
+  h1 { font-size:19px; color:#0d2440; margin:0 0 10px; }
+  p { font-size:13px; color:#5b6472; line-height:1.9; margin:0 0 18px; }
+  a.btn { display:inline-block; background:#0d2440; color:#fff; text-decoration:none; font-size:14px; padding:12px 28px; border-radius:8px; letter-spacing:2px; }
 </style>
 </head>
 <body>
   <div class="card">
-    <h1>📡 壽險業 AI 應用情報週報</h1>
-    <div class="sub">數據暨AI發展部｜每週更新，此頁永遠提供最新一期</div>
-    <!-- latest.pdf / latest.html 每期發佈時覆蓋，此頁與 QR Code 永遠不用改 -->
-    <a class="btn primary" href="latest.pdf" download="壽險業AI應用情報週報_最新一期.pdf">⬇ 下載 PDF</a>
-    <a class="btn secondary" href="latest.html">🌐 線上閱讀網頁版</a>
-    <div class="foot">歷史期數請見 <a href="archive/">archive/</a></div>
+    <h1>📡 本刊已搬家</h1>
+    <p>原「壽險業 AI 應用情報週報」已改版並遷移至新網址。<br>正在為您自動跳轉到新版「保險業 AI・Agent・數位轉型 週報」…</p>
+    <a class="btn" href="https://allyhsu.github.io/polaris-insurance-ai-weekly/">若未自動跳轉，請點此前往</a>
   </div>
 </body>
 </html>
